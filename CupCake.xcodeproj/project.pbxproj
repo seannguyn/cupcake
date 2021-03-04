@@ -14,11 +14,14 @@
 		376F3DF625F0629B008ACF0F /* CupCakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F3DCA25F0629A008ACF0F /* CupCakeApp.swift */; };
 		376F3DF725F0629B008ACF0F /* CupCakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F3DCA25F0629A008ACF0F /* CupCakeApp.swift */; };
 		376F3DF825F0629B008ACF0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F3DCB25F0629A008ACF0F /* ContentView.swift */; };
-		376F3DF925F0629B008ACF0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F3DCB25F0629A008ACF0F /* ContentView.swift */; };
-		376F3DFA25F0629B008ACF0F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F3DCC25F0629A008ACF0F /* Persistence.swift */; };
-		376F3DFB25F0629B008ACF0F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F3DCC25F0629A008ACF0F /* Persistence.swift */; };
 		376F3DFC25F0629B008ACF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376F3DCD25F0629B008ACF0F /* Assets.xcassets */; };
 		376F3DFD25F0629B008ACF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376F3DCD25F0629B008ACF0F /* Assets.xcassets */; };
+		376F3E1925F066A9008ACF0F /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F3E1825F066A9008ACF0F /* Demo.swift */; };
+		376F3E2725F06953008ACF0F /* NetworkCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F3E2625F06953008ACF0F /* NetworkCallView.swift */; };
+		376F3E2D25F06F09008ACF0F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F3E2C25F06F09008ACF0F /* Order.swift */; };
+		376F3E5325F07DDB008ACF0F /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F3E5225F07DDB008ACF0F /* AddressView.swift */; };
+		376F3E5925F07E5A008ACF0F /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F3E5825F07E5A008ACF0F /* CheckoutView.swift */; };
+		376F3E5E25F07F3F008ACF0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376F3DCB25F0629A008ACF0F /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +45,6 @@
 		376F3DC925F0629A008ACF0F /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		376F3DCA25F0629A008ACF0F /* CupCakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupCakeApp.swift; sourceTree = "<group>"; };
 		376F3DCB25F0629A008ACF0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		376F3DCC25F0629A008ACF0F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		376F3DCD25F0629B008ACF0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		376F3DD225F0629B008ACF0F /* CupCake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupCake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		376F3DD525F0629B008ACF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +57,11 @@
 		376F3DED25F0629B008ACF0F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		376F3DF125F0629B008ACF0F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		376F3DF325F0629B008ACF0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376F3E1825F066A9008ACF0F /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		376F3E2625F06953008ACF0F /* NetworkCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCallView.swift; sourceTree = "<group>"; };
+		376F3E2C25F06F09008ACF0F /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		376F3E5225F07DDB008ACF0F /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		376F3E5825F07E5A008ACF0F /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +111,12 @@
 		376F3DC725F0629A008ACF0F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				376F3E1725F06690008ACF0F /* Utils */,
+				376F3E1525F06681008ACF0F /* Views */,
+				376F3E1625F06686008ACF0F /* ViewModels */,
+				376F3E1425F0667B008ACF0F /* Models */,
 				376F3DCA25F0629A008ACF0F /* CupCakeApp.swift */,
 				376F3DCB25F0629A008ACF0F /* ContentView.swift */,
-				376F3DCC25F0629A008ACF0F /* Persistence.swift */,
 				376F3DCD25F0629B008ACF0F /* Assets.xcassets */,
 				376F3DC825F0629A008ACF0F /* CupCake.xcdatamodeld */,
 			);
@@ -157,6 +167,39 @@
 				376F3DF325F0629B008ACF0F /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		376F3E1425F0667B008ACF0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				376F3E1825F066A9008ACF0F /* Demo.swift */,
+				376F3E2C25F06F09008ACF0F /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		376F3E1525F06681008ACF0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				376F3E5225F07DDB008ACF0F /* AddressView.swift */,
+				376F3E5825F07E5A008ACF0F /* CheckoutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		376F3E1625F06686008ACF0F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				376F3E2625F06953008ACF0F /* NetworkCallView.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		376F3E1725F06690008ACF0F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,9 +359,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376F3E5325F07DDB008ACF0F /* AddressView.swift in Sources */,
+				376F3E2D25F06F09008ACF0F /* Order.swift in Sources */,
+				376F3E2725F06953008ACF0F /* NetworkCallView.swift in Sources */,
 				376F3DF625F0629B008ACF0F /* CupCakeApp.swift in Sources */,
-				376F3DFA25F0629B008ACF0F /* Persistence.swift in Sources */,
 				376F3DF425F0629B008ACF0F /* CupCake.xcdatamodeld in Sources */,
+				376F3E1925F066A9008ACF0F /* Demo.swift in Sources */,
+				376F3E5925F07E5A008ACF0F /* CheckoutView.swift in Sources */,
 				376F3DF825F0629B008ACF0F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,9 +375,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				376F3DF725F0629B008ACF0F /* CupCakeApp.swift in Sources */,
-				376F3DFB25F0629B008ACF0F /* Persistence.swift in Sources */,
 				376F3DF525F0629B008ACF0F /* CupCake.xcdatamodeld in Sources */,
-				376F3DF925F0629B008ACF0F /* ContentView.swift in Sources */,
+				376F3E5E25F07F3F008ACF0F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +542,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
